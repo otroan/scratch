@@ -80,8 +80,7 @@ Maintainer: Neale Ranns <nranns@cisco.com>
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/abf](https://git.fd.io/vpp/tree/src/plugins/abf) 
 ### ACLs for Security Groups
@@ -111,8 +110,7 @@ and "transient" (all the other TCP states) sessions.
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/acl](https://git.fd.io/vpp/tree/src/plugins/acl) 
 ### Address Resolution Protocol
@@ -124,8 +122,7 @@ An implementation of the Address resolution protocol (ARP) as described in RFC82
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/arp](https://git.fd.io/vpp/tree/src/vnet/arp) 
 ### Adjacency
@@ -142,10 +139,9 @@ Adjacencies represent the next-hop information required to reach a directly conn
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * f50bac1bb vppinfra: bihash walk cb typedef and continue/stop controls
-  * 77cfc0171 fib: Adjacency creation notifications for dlegates
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [f50bac1bb](https://git.fd.io/vpp/commit/?id=f50bac1bb) vppinfra: bihash walk cb typedef and continue/stop controls
+  - [77cfc0171](https://git.fd.io/vpp/commit/?id=77cfc0171) fib: Adjacency creation notifications for dlegates
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/adj](https://git.fd.io/vpp/tree/src/vnet/adj) 
 ### Bidirectional Forwarding Detection
@@ -157,9 +153,8 @@ An implementation of Bidirectional Forwarding Detection (BFD).
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/bfd](https://git.fd.io/vpp/tree/src/vnet/bfd) 
 ### Bit Indexed Explicit Replication
@@ -172,8 +167,7 @@ An implementation of Bit Indexed Explicit Replication (BIER)
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/bier](https://git.fd.io/vpp/tree/src/vnet/bier) 
 ### Bonding
@@ -185,15 +179,14 @@ Bonding implementation
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * aa7257863 bonding: Add /if/lacp/<bond-sw_if_index>/<slave-sw_if_index>/partner-state
-  * 39d69112f api: multiple connections per process
-  * e83aa456b bonding: add/del secondary mac address callback
-  * cc3aac056 bonding: fix interface deletion
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
-  * a1876b84e bonding: add weight support for active-backup mode
-  * 0f09a828a stats: add /if/<n>/<n>/state for lacp interface state
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [aa7257863](https://git.fd.io/vpp/commit/?id=aa7257863) bonding: Add /if/lacp/<bond-sw_if_index>/<slave-sw_if_index>/partner-state
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [e83aa456b](https://git.fd.io/vpp/commit/?id=e83aa456b) bonding: add/del secondary mac address callback
+  - [cc3aac056](https://git.fd.io/vpp/commit/?id=cc3aac056) bonding: fix interface deletion
+  - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+  - [a1876b84e](https://git.fd.io/vpp/commit/?id=a1876b84e) bonding: add weight support for active-backup mode
+  - [0f09a828a](https://git.fd.io/vpp/commit/?id=0f09a828a) stats: add /if/<n>/<n>/state for lacp interface state
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/bonding](https://git.fd.io/vpp/tree/src/vnet/bonding) 
 ### Buffer Metadata Change Tracker
@@ -211,10 +204,9 @@ Zero performance impact until enabled.
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * d318a996b dhcp: ipv6 prefix delegation improvements
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * d7b306657 mdata: buffer metadata change tracker plugin
+Feature commits:    - [d318a996b](https://git.fd.io/vpp/commit/?id=d318a996b) dhcp: ipv6 prefix delegation improvements
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [d7b306657](https://git.fd.io/vpp/commit/?id=d7b306657) mdata: buffer metadata change tracker plugin
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/mdata](https://git.fd.io/vpp/tree/src/plugins/mdata) 
 ### Builtin URL support for the static http or https server
@@ -226,9 +218,8 @@ The (builtinurl) plugin adds a set of URLs to the static http/https server. Curr
 
 Feature maturity level: development  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 71a5da0c8 http_static: add .json content
-  * 43765e2b4 builtinurl: initial working attempt
+Feature commits:    - [71a5da0c8](https://git.fd.io/vpp/commit/?id=71a5da0c8) http_static: add .json content
+  - [43765e2b4](https://git.fd.io/vpp/commit/?id=43765e2b4) builtinurl: initial working attempt
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/builtinurl](https://git.fd.io/vpp/tree/src/plugins/builtinurl) 
 ### Data-Plane Objects
@@ -255,11 +246,10 @@ An implemenation of the Dynamic Host Configuration Protocol (DHCP) client
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 39d69112f api: multiple connections per process
-  * d318a996b dhcp: ipv6 prefix delegation improvements
-  * 02bfd641b dhcp: Move to plugin
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [d318a996b](https://git.fd.io/vpp/commit/?id=d318a996b) dhcp: ipv6 prefix delegation improvements
+  - [02bfd641b](https://git.fd.io/vpp/commit/?id=02bfd641b) dhcp: Move to plugin
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/dhcp](https://git.fd.io/vpp/tree/src/plugins/dhcp) 
 ### GPRS Tunneling Protocol
@@ -288,9 +278,8 @@ Supports: API CLI MULTITHREAD
 Not yet implemented:  
 - GRE keys
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 5f8f61733 gre: Multi-point interfaces
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [5f8f61733](https://git.fd.io/vpp/commit/?id=5f8f61733) gre: Multi-point interfaces
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/gre](https://git.fd.io/vpp/tree/src/vnet/gre) 
 ### IP Neighbour Database
@@ -303,8 +292,7 @@ Maintainer: Neale Ranns <nranns@cisco.com>
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/ip-neighbor](https://git.fd.io/vpp/tree/src/vnet/ip-neighbor) 
 ### IP Security
@@ -318,14 +306,13 @@ An implementation of IPSec
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * f62a8c013 ipsec: bind an SA to a worker
-  * 39d69112f api: multiple connections per process
-  * 9534696b4 ipip: Tunnel flags controlling copying data to/from payload/encap
-  * 12989b538 ipsec: remove dedicated IPSec tunnels
-  * 01d61e788 ipsec: add insecure option for format of SA
-  * b325983a4 ipsec: support 4o6 and 6o4 for tunnel protect
-  * 670027a50 ipsec: Add 'detail' option to 'sh ipsec sa'
+Feature commits:    - [f62a8c013](https://git.fd.io/vpp/commit/?id=f62a8c013) ipsec: bind an SA to a worker
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [9534696b4](https://git.fd.io/vpp/commit/?id=9534696b4) ipip: Tunnel flags controlling copying data to/from payload/encap
+  - [12989b538](https://git.fd.io/vpp/commit/?id=12989b538) ipsec: remove dedicated IPSec tunnels
+  - [01d61e788](https://git.fd.io/vpp/commit/?id=01d61e788) ipsec: add insecure option for format of SA
+  - [b325983a4](https://git.fd.io/vpp/commit/?id=b325983a4) ipsec: support 4o6 and 6o4 for tunnel protect
+  - [670027a50](https://git.fd.io/vpp/commit/?id=670027a50) ipsec: Add 'detail' option to 'sh ipsec sa'
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/ipsec](https://git.fd.io/vpp/tree/src/vnet/ipsec) 
 ### IP in IP tunnelling
@@ -354,9 +341,8 @@ Not yet implemented:
 - Tracking of FIB state for tunnel state
 - IPv6 extension headers (Tunnel encapsulation limit option)
 
-Feature commits:  
-  * 9534696b4 ipip: Tunnel flags controlling copying data to/from payload/encap
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
+Feature commits:    - [9534696b4](https://git.fd.io/vpp/commit/?id=9534696b4) ipip: Tunnel flags controlling copying data to/from payload/encap
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/ipip](https://git.fd.io/vpp/tree/src/vnet/ipip) 
 ### IPFIX probe
@@ -376,8 +362,7 @@ Not yet implemented:
 - Export over IPv6
 - Export over TCP/SCTP
 
-Feature commits:  
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
+Feature commits:    - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/flowprobe](https://git.fd.io/vpp/tree/src/plugins/flowprobe) 
 ### IPSec crypto engine provided by Intel IPSecMB library
@@ -391,8 +376,7 @@ Maintainer: Neale Ranns <nranns@cisco.com>
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 76a36e83e crypto-ipsecmb: improve gcm performance using dedicated API.
+Feature commits:    - [76a36e83e](https://git.fd.io/vpp/commit/?id=76a36e83e) crypto-ipsecmb: improve gcm performance using dedicated API.
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/crypto_ipsecmb](https://git.fd.io/vpp/tree/src/plugins/crypto_ipsecmb) 
 ### IPSec crypto engine provided by Openssl library
@@ -420,8 +404,7 @@ An implentation of a native crypto-engine
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 9fb6d40eb misc: add address sanitizer heap instrumentation
+Feature commits:    - [9fb6d40eb](https://git.fd.io/vpp/commit/?id=9fb6d40eb) misc: add address sanitizer heap instrumentation
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/crypto_ia32](https://git.fd.io/vpp/tree/src/plugins/crypto_ia32) 
 ### IPv6 Neighbor Discovery
@@ -436,8 +419,7 @@ An implementation of the IPv6 Neighbor discovery protocol as described in RFC486
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/ip6-nd](https://git.fd.io/vpp/tree/src/vnet/ip6-nd) 
 ### Internet Group Management Protocol
@@ -459,8 +441,7 @@ An initial and incomplete implementation of L2TPv3 (RFC3931).
 
 Feature maturity level: experimental  
 Supports: API CLI  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/l2tp](https://git.fd.io/vpp/tree/src/vnet/l2tp) 
 ### Layer 2 Forwarding
@@ -489,12 +470,11 @@ Layer 2 Bridging and Cross-Connect Support
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * f50bac1bb vppinfra: bihash walk cb typedef and continue/stop controls
-  * 39d69112f api: multiple connections per process
-  * 9fb6d40eb misc: add address sanitizer heap instrumentation
-  * 830493392 classify: use vector code even when data is not aligned
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [f50bac1bb](https://git.fd.io/vpp/commit/?id=f50bac1bb) vppinfra: bihash walk cb typedef and continue/stop controls
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [9fb6d40eb](https://git.fd.io/vpp/commit/?id=9fb6d40eb) misc: add address sanitizer heap instrumentation
+  - [830493392](https://git.fd.io/vpp/commit/?id=830493392) classify: use vector code even when data is not aligned
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/l2](https://git.fd.io/vpp/tree/src/vnet/l2) 
 ### Layer 3 cross connect
@@ -508,8 +488,7 @@ Maintainer: Neale Ranns <nranns@cisco.com>
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/l3xc](https://git.fd.io/vpp/tree/src/plugins/l3xc) 
 ### Link Aggregation Control Protocol
@@ -521,9 +500,8 @@ Link Aggregation Control Protocol implementation (LACP)
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * aa7257863 bonding: Add /if/lacp/<bond-sw_if_index>/<slave-sw_if_index>/partner-state
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [aa7257863](https://git.fd.io/vpp/commit/?id=aa7257863) bonding: Add /if/lacp/<bond-sw_if_index>/<slave-sw_if_index>/partner-state
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/lacp](https://git.fd.io/vpp/tree/src/plugins/lacp) 
 ### Link Layer Discovery Protocol
@@ -535,8 +513,7 @@ Link Layer Discovery Protocol (LLDP) implementation
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/lldp](https://git.fd.io/vpp/tree/src/vnet/lldp) 
 ### Load Balancer
@@ -552,9 +529,8 @@ Maintainer: Pfister <ppfister@cisco.com>, Hongjun Ni <hongjun.ni@intel.com>
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 3bab8f9c5 fib: Decouple source from priority and behaviour
-  * 33538a150 lb: add APIs for set interface nat4 and nat6
+Feature commits:    - [3bab8f9c5](https://git.fd.io/vpp/commit/?id=3bab8f9c5) fib: Decouple source from priority and behaviour
+  - [33538a150](https://git.fd.io/vpp/commit/?id=33538a150) lb: add APIs for set interface nat4 and nat6
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/lb](https://git.fd.io/vpp/tree/src/plugins/lb) 
 ### Locator ID Separation Protocol Control Plane
@@ -572,9 +548,8 @@ Locator ID Separation Protocol control plane (LISP) implementation
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * f50bac1bb vppinfra: bihash walk cb typedef and continue/stop controls
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [f50bac1bb](https://git.fd.io/vpp/commit/?id=f50bac1bb) vppinfra: bihash walk cb typedef and continue/stop controls
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/lisp-cp](https://git.fd.io/vpp/tree/src/vnet/lisp-cp) 
 ### Locator ID Separation Protocol Generic Protocol Extension
@@ -589,8 +564,7 @@ Locator ID Separation Protocol Generic Protocol Extension (LISP-GPE) implementat
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/lisp-gpe](https://git.fd.io/vpp/tree/src/vnet/lisp-gpe) 
 ### Mapping of Address and Port
@@ -606,9 +580,8 @@ Mapping of Address and Port (MAP): IPv4 as a service mechanisms. Tunnel or trans
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * ff47fb645 vppapigen map: raise ValueError when fieldname is python keyword
+Feature commits:    - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [ff47fb645](https://git.fd.io/vpp/commit/?id=ff47fb645) vppapigen map: raise ValueError when fieldname is python keyword
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/map](https://git.fd.io/vpp/tree/src/plugins/map) 
 ### Multi-Protocol Label Switching
@@ -621,9 +594,8 @@ An implementation of Multi-Protocol Label Switching (MPLS)
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 9db6ada77 fib: Table Replace
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [9db6ada77](https://git.fd.io/vpp/commit/?id=9db6ada77) fib: Table Replace
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/mpls](https://git.fd.io/vpp/tree/src/vnet/mpls) 
 ### NSH
@@ -640,8 +612,7 @@ NSH for SFC
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/nsh](https://git.fd.io/vpp/tree/src/plugins/nsh) 
 ### Netmap Device
@@ -657,10 +628,9 @@ Supports: API CLI STATS MULTITHREAD
 Not yet implemented:  
 - API dump
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/devices/netmap](https://git.fd.io/vpp/tree/src/vnet/devices/netmap) 
 ### Network Address Translation
@@ -688,13 +658,12 @@ The Network Address Translation (NAT) plugin offers a multiple address translati
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 39d69112f api: multiple connections per process
-  * 3bab8f9c5 fib: Decouple source from priority and behaviour
-  * 9db6ada77 fib: Table Replace
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * 22bb417e9 nat: handoff traffic matching for dynamic NAT
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [3bab8f9c5](https://git.fd.io/vpp/commit/?id=3bab8f9c5) fib: Decouple source from priority and behaviour
+  - [9db6ada77](https://git.fd.io/vpp/commit/?id=9db6ada77) fib: Table Replace
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [22bb417e9](https://git.fd.io/vpp/commit/?id=22bb417e9) nat: handoff traffic matching for dynamic NAT
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/nat](https://git.fd.io/vpp/tree/src/plugins/nat) 
 ### Network Delay Simulator
@@ -718,9 +687,8 @@ PPP over Ethernet
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * f50bac1bb vppinfra: bihash walk cb typedef and continue/stop controls
-  * 3bab8f9c5 fib: Decouple source from priority and behaviour
+Feature commits:    - [f50bac1bb](https://git.fd.io/vpp/commit/?id=f50bac1bb) vppinfra: bihash walk cb typedef and continue/stop controls
+  - [3bab8f9c5](https://git.fd.io/vpp/commit/?id=3bab8f9c5) fib: Decouple source from priority and behaviour
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/pppoe](https://git.fd.io/vpp/tree/src/plugins/pppoe) 
 ### Pipe Device
@@ -738,9 +706,8 @@ Not yet implemented:
 - does not support tagged traffic
 - API dump filtering by sw_if_index
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/devices/pipe](https://git.fd.io/vpp/tree/src/vnet/devices/pipe) 
 ### QUIC Protocol
@@ -753,22 +720,21 @@ IETF QUIC Protocol implementation
 
 Feature maturity level: experimental  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * d1b9e7068 quic: Implement crypto contexts
-  * ecb9d18c5 quic: update quicly to v0.0.8-vpp
-  * c00f480ba quic: Add support for unidirectional streams
-  * deaf97f45 quic: Add aggregated quicly stats
-  * 1802fcc5f quic: add more detailed statistics
-  * 69885b72a quic: update quicly to v0.0.7-vpp
-  * 2f566c23f quic: add conn-timeout config option
-  * dcbbf2833 quic: Add support for ckpair & crypto engine
-  * 340c15c6e docs: add spellcheck to 'make docs' sphinx docs
-  * 79f89537c session: Add certificate store
-  * 00078b991 quic: make quic fifo size configurable via cli
-  * 72c159e64 quic: update quicly to v0.0.5
-  * dd4d8ac29 quic: Create custom event logger
-  * ff1f6faaa quic: Add Tx, Rx and packet drop counters
-  * 922f0b211 quic: add cli command for stats
+Feature commits:    - [d1b9e7068](https://git.fd.io/vpp/commit/?id=d1b9e7068) quic: Implement crypto contexts
+  - [ecb9d18c5](https://git.fd.io/vpp/commit/?id=ecb9d18c5) quic: update quicly to v0.0.8-vpp
+  - [c00f480ba](https://git.fd.io/vpp/commit/?id=c00f480ba) quic: Add support for unidirectional streams
+  - [deaf97f45](https://git.fd.io/vpp/commit/?id=deaf97f45) quic: Add aggregated quicly stats
+  - [1802fcc5f](https://git.fd.io/vpp/commit/?id=1802fcc5f) quic: add more detailed statistics
+  - [69885b72a](https://git.fd.io/vpp/commit/?id=69885b72a) quic: update quicly to v0.0.7-vpp
+  - [2f566c23f](https://git.fd.io/vpp/commit/?id=2f566c23f) quic: add conn-timeout config option
+  - [dcbbf2833](https://git.fd.io/vpp/commit/?id=dcbbf2833) quic: Add support for ckpair & crypto engine
+  - [340c15c6e](https://git.fd.io/vpp/commit/?id=340c15c6e) docs: add spellcheck to 'make docs' sphinx docs
+  - [79f89537c](https://git.fd.io/vpp/commit/?id=79f89537c) session: Add certificate store
+  - [00078b991](https://git.fd.io/vpp/commit/?id=00078b991) quic: make quic fifo size configurable via cli
+  - [72c159e64](https://git.fd.io/vpp/commit/?id=72c159e64) quic: update quicly to v0.0.5
+  - [dd4d8ac29](https://git.fd.io/vpp/commit/?id=dd4d8ac29) quic: Create custom event logger
+  - [ff1f6faaa](https://git.fd.io/vpp/commit/?id=ff1f6faaa) quic: Add Tx, Rx and packet drop counters
+  - [922f0b211](https://git.fd.io/vpp/commit/?id=922f0b211) quic: add cli command for stats
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/quic](https://git.fd.io/vpp/tree/src/plugins/quic) 
 ### Quality of Service
@@ -783,8 +749,7 @@ An implentation of Quality of Service (QoS)
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/qos](https://git.fd.io/vpp/tree/src/vnet/qos) 
 ### SRv6 - Service Chaining Dynamic Proxy
@@ -796,9 +761,8 @@ SRv6 dynamic proxy
 
 Feature maturity level: production  
 Supports: CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 1b81e6ef6 srv6-mobile
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [1b81e6ef6](https://git.fd.io/vpp/commit/?id=1b81e6ef6) srv6-mobile
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/srv6-ad](https://git.fd.io/vpp/tree/src/plugins/srv6-ad) 
 ### SRv6 - Service Chaining Masquerading Proxy
@@ -810,9 +774,8 @@ SRv6 masquerading proxy
 
 Feature maturity level: production  
 Supports: CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 1b81e6ef6 srv6-mobile
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [1b81e6ef6](https://git.fd.io/vpp/commit/?id=1b81e6ef6) srv6-mobile
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/srv6-am](https://git.fd.io/vpp/tree/src/plugins/srv6-am) 
 ### SRv6 - Service Chaining Static Proxy
@@ -824,10 +787,9 @@ SRv6 static proxy
 
 Feature maturity level: production  
 Supports: CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 1b81e6ef6 srv6-mobile
-  * eeb5fb3a5 sr: add "set sr encaps hop-limit" command
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [1b81e6ef6](https://git.fd.io/vpp/commit/?id=1b81e6ef6) srv6-mobile
+  - [eeb5fb3a5](https://git.fd.io/vpp/commit/?id=eeb5fb3a5) sr: add "set sr encaps hop-limit" command
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/srv6-as](https://git.fd.io/vpp/tree/src/plugins/srv6-as) 
 ### SRv6 Mobuile
@@ -843,10 +805,9 @@ SRv6 Mobile End Functions. GTP4.D, GTP4.E, GTP6.D, GTP6.D.Di and GTP6.E are supp
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 57584d99d srv6-mobile:
-  * 70d8ef89a srv6-mobile
-  * 1b81e6ef6 srv6-mobile
+Feature commits:    - [57584d99d](https://git.fd.io/vpp/commit/?id=57584d99d) srv6-mobile:
+  - [70d8ef89a](https://git.fd.io/vpp/commit/?id=70d8ef89a) srv6-mobile
+  - [1b81e6ef6](https://git.fd.io/vpp/commit/?id=1b81e6ef6) srv6-mobile
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/srv6-mobile](https://git.fd.io/vpp/tree/src/plugins/srv6-mobile) 
 ### Segment Routing for IPv6 (SRv6)
@@ -866,12 +827,11 @@ Full SRv6 Network Programming implementation
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 57584d99d srv6-mobile:
-  * 39d69112f api: multiple connections per process
-  * 70d8ef89a srv6-mobile
-  * 1b81e6ef6 srv6-mobile
-  * eeb5fb3a5 sr: add "set sr encaps hop-limit" command
+Feature commits:    - [57584d99d](https://git.fd.io/vpp/commit/?id=57584d99d) srv6-mobile:
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [70d8ef89a](https://git.fd.io/vpp/commit/?id=70d8ef89a) srv6-mobile
+  - [1b81e6ef6](https://git.fd.io/vpp/commit/?id=1b81e6ef6) srv6-mobile
+  - [eeb5fb3a5](https://git.fd.io/vpp/commit/?id=eeb5fb3a5) sr: add "set sr encaps hop-limit" command
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/srv6](https://git.fd.io/vpp/tree/src/vnet/srv6) 
 ### Segment Routing for MPLS
@@ -884,8 +844,7 @@ SR-MPLS
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/srmpls](https://git.fd.io/vpp/tree/src/vnet/srmpls) 
 ### Session Layer
@@ -909,35 +868,34 @@ The session layer facilitates the interaction between northbound applications an
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * b092b77cf tcp: Enable TCP timewait port use
-  * d1b9e7068 quic: Implement crypto contexts
-  * f50bac1bb vppinfra: bihash walk cb typedef and continue/stop controls
-  * ef4f3e7fe session svm: support for segments larger than 4GB
-  * cfdb10918 session: Add mq debug cli
-  * c00f480ba quic: Add support for unidirectional streams
-  * 39d69112f api: multiple connections per process
-  * 11e9e3510 session tcp: support pacer idle timeouts
-  * d9035a409 session tcp: add opaque data to show cli
-  * 91f90d082 session: more show cli output
-  * 93e060aee session: Increasing the Header lengthe size
-  * de6caf481 session: Add crypto context
-  * 45ec9f49b session: ckpair store & crypto engine as mq params
-  * dd97a48d9 session: reschedule asap when snd space constrained
-  * 79ba25d40 session: support registration of custom crypto engines
-  * ef7cbf6ad vcl: add api to set lcl ip
-  * 2a7ea2ee9 session tcp: infra for transports to send buffers
-  * c31dc31f8 tcp: improve pacing after idle send periods
-  * be237bf02 tcp: retry lost retransmits
-  * 79f89537c session: Add certificate store
-  * 36ebcfffb tcp: use sacks for timer based recovery
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
-  * 5c29029ef session: builtin app rx notifications regardless of state
-  * 7c8f828ba session: limit pacer bucket size
-  * 1292d19c7 session: add session enable option in config file
-  * 1146ff4bc tcp: enable gso in tcp hoststack
-  * 5bb23ecd0 session: improve cli
-  * dfb3b8771 session: add explicit reset api
+Feature commits:    - [b092b77cf](https://git.fd.io/vpp/commit/?id=b092b77cf) tcp: Enable TCP timewait port use
+  - [d1b9e7068](https://git.fd.io/vpp/commit/?id=d1b9e7068) quic: Implement crypto contexts
+  - [f50bac1bb](https://git.fd.io/vpp/commit/?id=f50bac1bb) vppinfra: bihash walk cb typedef and continue/stop controls
+  - [ef4f3e7fe](https://git.fd.io/vpp/commit/?id=ef4f3e7fe) session svm: support for segments larger than 4GB
+  - [cfdb10918](https://git.fd.io/vpp/commit/?id=cfdb10918) session: Add mq debug cli
+  - [c00f480ba](https://git.fd.io/vpp/commit/?id=c00f480ba) quic: Add support for unidirectional streams
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [11e9e3510](https://git.fd.io/vpp/commit/?id=11e9e3510) session tcp: support pacer idle timeouts
+  - [d9035a409](https://git.fd.io/vpp/commit/?id=d9035a409) session tcp: add opaque data to show cli
+  - [91f90d082](https://git.fd.io/vpp/commit/?id=91f90d082) session: more show cli output
+  - [93e060aee](https://git.fd.io/vpp/commit/?id=93e060aee) session: Increasing the Header lengthe size
+  - [de6caf481](https://git.fd.io/vpp/commit/?id=de6caf481) session: Add crypto context
+  - [45ec9f49b](https://git.fd.io/vpp/commit/?id=45ec9f49b) session: ckpair store & crypto engine as mq params
+  - [dd97a48d9](https://git.fd.io/vpp/commit/?id=dd97a48d9) session: reschedule asap when snd space constrained
+  - [79ba25d40](https://git.fd.io/vpp/commit/?id=79ba25d40) session: support registration of custom crypto engines
+  - [ef7cbf6ad](https://git.fd.io/vpp/commit/?id=ef7cbf6ad) vcl: add api to set lcl ip
+  - [2a7ea2ee9](https://git.fd.io/vpp/commit/?id=2a7ea2ee9) session tcp: infra for transports to send buffers
+  - [c31dc31f8](https://git.fd.io/vpp/commit/?id=c31dc31f8) tcp: improve pacing after idle send periods
+  - [be237bf02](https://git.fd.io/vpp/commit/?id=be237bf02) tcp: retry lost retransmits
+  - [79f89537c](https://git.fd.io/vpp/commit/?id=79f89537c) session: Add certificate store
+  - [36ebcfffb](https://git.fd.io/vpp/commit/?id=36ebcfffb) tcp: use sacks for timer based recovery
+  - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+  - [5c29029ef](https://git.fd.io/vpp/commit/?id=5c29029ef) session: builtin app rx notifications regardless of state
+  - [7c8f828ba](https://git.fd.io/vpp/commit/?id=7c8f828ba) session: limit pacer bucket size
+  - [1292d19c7](https://git.fd.io/vpp/commit/?id=1292d19c7) session: add session enable option in config file
+  - [1146ff4bc](https://git.fd.io/vpp/commit/?id=1146ff4bc) tcp: enable gso in tcp hoststack
+  - [5bb23ecd0](https://git.fd.io/vpp/commit/?id=5bb23ecd0) session: improve cli
+  - [dfb3b8771](https://git.fd.io/vpp/commit/?id=dfb3b8771) session: add explicit reset api
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/session](https://git.fd.io/vpp/tree/src/vnet/session) 
 ### Source VRF Select
@@ -954,9 +912,8 @@ Maintainer: Neale Ranns <nranns@cisco.com>
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 3bab8f9c5 fib: Decouple source from priority and behaviour
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [3bab8f9c5](https://git.fd.io/vpp/commit/?id=3bab8f9c5) fib: Decouple source from priority and behaviour
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/svs](https://git.fd.io/vpp/tree/src/plugins/svs) 
 ### Static http https server
@@ -968,9 +925,8 @@ A simple caching static http / https server A built-in vpp host stack applicatio
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * e0fd9ed11 http_static: add "http static cache clear" CLI
-  * 5554c56a6 http_static: add dynamic GET / POST method hooks
+Feature commits:    - [e0fd9ed11](https://git.fd.io/vpp/commit/?id=e0fd9ed11) http_static: add "http static cache clear" CLI
+  - [5554c56a6](https://git.fd.io/vpp/commit/?id=5554c56a6) http_static: add dynamic GET / POST method hooks
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/http_static](https://git.fd.io/vpp/tree/src/plugins/http_static) 
 ### Tap Device
@@ -986,11 +942,10 @@ Supports: API CLI STATS MULTITHREAD
 Not yet implemented:  
 - API dump filtering by sw_if_index
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 7c6102b1a tap: multiqueue support
-  * 39807d02c tap: add check for vhost-net backend
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [7c6102b1a](https://git.fd.io/vpp/commit/?id=7c6102b1a) tap: multiqueue support
+  - [39807d02c](https://git.fd.io/vpp/commit/?id=39807d02c) tap: add check for vhost-net backend
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/devices/tap](https://git.fd.io/vpp/tree/src/vnet/devices/tap) 
 ### Time-range-based MAC-address filter
@@ -1002,13 +957,12 @@ Device-input/output arc driver level MAC filter. Checks to see if traffic is all
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 39d69112f api: multiple connections per process
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * ef3c11ca9 mactime: add the "mactime.json" builtin URL
-  * 5932ce17e tests: add cli_return_response to vpp_papi_provider
-  * 2c41a61d5 mactime: add a "top" command to watch device stats
+Feature commits:    - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [ef3c11ca9](https://git.fd.io/vpp/commit/?id=ef3c11ca9) mactime: add the "mactime.json" builtin URL
+  - [5932ce17e](https://git.fd.io/vpp/commit/?id=5932ce17e) tests: add cli_return_response to vpp_papi_provider
+  - [2c41a61d5](https://git.fd.io/vpp/commit/?id=2c41a61d5) mactime: add a "top" command to watch device stats
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/mactime](https://git.fd.io/vpp/tree/src/plugins/mactime) 
 ### Transmission Control Protocol
@@ -1027,36 +981,35 @@ High speed and scale Transmission Control Protocol (TCP) implementation
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 93e053ebe tcp: add FEATURE.yaml
-  * b092b77cf tcp: Enable TCP timewait port use
-  * cbe25aab3 ip: Protocol Independent IP Neighbors
-  * 39d69112f api: multiple connections per process
-  * f4ce6ba22 tcp: add no csum offload config option
-  * 11e9e3510 session tcp: support pacer idle timeouts
-  * d9035a409 session tcp: add opaque data to show cli
-  * b3dce89a7 tcp: improve lost rxt heuristic
-  * cf4c2102d tcp: validate the IP address while checking TCP connection
-  * 46ec6e018 tcp: track lost rxt segments in byte tracker
-  * 2a7ea2ee9 session tcp: infra for transports to send buffers
-  * c31dc31f8 tcp: improve pacing after idle send periods
-  * be237bf02 tcp: retry lost retransmits
-  * 02833ff32 tcp: custom checksum calculations for Ipv4/Ipv6
-  * 36ebcfffb tcp: use sacks for timer based recovery
-  * 7436b4367 tcp: compute snd time for rate sample
-  * 1dbda64b4 tcp: use rate sample rtt in recovery if possible
-  * 558e3e095 tcp: handle sack reneging
-  * 1146ff4bc tcp: enable gso in tcp hoststack
-  * 78dae0088 tcp: validate connections in output
-  * 5bb23ecd0 session: improve cli
-  * 017dc4524 tcp: send rwnd update only if wnd is large enough
-  * 182d21983 tcp: force zero window on full rx fifo
-  * a495a3ea1 tcp: track zero rwnd errors
-  * a436a4222 tcp: add option for always on event logging
-  * dfb3b8771 session: add explicit reset api
-  * 12f6936cd tcp: set cc_algo on connection alloc
-  * d206724e7 tcp: allow cc algos to set pacing rate
-  * 9094b5c31 tcp: extend protocol configuration
+Feature commits:    - [93e053ebe](https://git.fd.io/vpp/commit/?id=93e053ebe) tcp: add FEATURE.yaml
+  - [b092b77cf](https://git.fd.io/vpp/commit/?id=b092b77cf) tcp: Enable TCP timewait port use
+  - [cbe25aab3](https://git.fd.io/vpp/commit/?id=cbe25aab3) ip: Protocol Independent IP Neighbors
+  - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [f4ce6ba22](https://git.fd.io/vpp/commit/?id=f4ce6ba22) tcp: add no csum offload config option
+  - [11e9e3510](https://git.fd.io/vpp/commit/?id=11e9e3510) session tcp: support pacer idle timeouts
+  - [d9035a409](https://git.fd.io/vpp/commit/?id=d9035a409) session tcp: add opaque data to show cli
+  - [b3dce89a7](https://git.fd.io/vpp/commit/?id=b3dce89a7) tcp: improve lost rxt heuristic
+  - [cf4c2102d](https://git.fd.io/vpp/commit/?id=cf4c2102d) tcp: validate the IP address while checking TCP connection
+  - [46ec6e018](https://git.fd.io/vpp/commit/?id=46ec6e018) tcp: track lost rxt segments in byte tracker
+  - [2a7ea2ee9](https://git.fd.io/vpp/commit/?id=2a7ea2ee9) session tcp: infra for transports to send buffers
+  - [c31dc31f8](https://git.fd.io/vpp/commit/?id=c31dc31f8) tcp: improve pacing after idle send periods
+  - [be237bf02](https://git.fd.io/vpp/commit/?id=be237bf02) tcp: retry lost retransmits
+  - [02833ff32](https://git.fd.io/vpp/commit/?id=02833ff32) tcp: custom checksum calculations for Ipv4/Ipv6
+  - [36ebcfffb](https://git.fd.io/vpp/commit/?id=36ebcfffb) tcp: use sacks for timer based recovery
+  - [7436b4367](https://git.fd.io/vpp/commit/?id=7436b4367) tcp: compute snd time for rate sample
+  - [1dbda64b4](https://git.fd.io/vpp/commit/?id=1dbda64b4) tcp: use rate sample rtt in recovery if possible
+  - [558e3e095](https://git.fd.io/vpp/commit/?id=558e3e095) tcp: handle sack reneging
+  - [1146ff4bc](https://git.fd.io/vpp/commit/?id=1146ff4bc) tcp: enable gso in tcp hoststack
+  - [78dae0088](https://git.fd.io/vpp/commit/?id=78dae0088) tcp: validate connections in output
+  - [5bb23ecd0](https://git.fd.io/vpp/commit/?id=5bb23ecd0) session: improve cli
+  - [017dc4524](https://git.fd.io/vpp/commit/?id=017dc4524) tcp: send rwnd update only if wnd is large enough
+  - [182d21983](https://git.fd.io/vpp/commit/?id=182d21983) tcp: force zero window on full rx fifo
+  - [a495a3ea1](https://git.fd.io/vpp/commit/?id=a495a3ea1) tcp: track zero rwnd errors
+  - [a436a4222](https://git.fd.io/vpp/commit/?id=a436a4222) tcp: add option for always on event logging
+  - [dfb3b8771](https://git.fd.io/vpp/commit/?id=dfb3b8771) session: add explicit reset api
+  - [12f6936cd](https://git.fd.io/vpp/commit/?id=12f6936cd) tcp: set cc_algo on connection alloc
+  - [d206724e7](https://git.fd.io/vpp/commit/?id=d206724e7) tcp: allow cc algos to set pacing rate
+  - [9094b5c31](https://git.fd.io/vpp/commit/?id=9094b5c31) tcp: extend protocol configuration
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/tcp](https://git.fd.io/vpp/tree/src/vnet/tcp) 
 ### Transport Layer Security
@@ -1069,9 +1022,8 @@ Transport Layer Security (TLS) protocol implementation that consists of a set of
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 0d74dd1f8 tls: improve connection formating
-  * 79f89537c session: Add certificate store
+Feature commits:    - [0d74dd1f8](https://git.fd.io/vpp/commit/?id=0d74dd1f8) tls: improve connection formating
+  - [79f89537c](https://git.fd.io/vpp/commit/?id=79f89537c) session: Add certificate store
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/tls](https://git.fd.io/vpp/tree/src/vnet/tls) 
 ### User Datagram Protocol
@@ -1084,8 +1036,7 @@ User Datagram Protocol (UDP) implementation
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/udp](https://git.fd.io/vpp/tree/src/vnet/udp) 
 ### VNET GSO
@@ -1103,9 +1054,8 @@ Supports: API CLI
 Not yet implemented:  
 - Tunnels i.e. VXLAN
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 72e7312af gso: add protocol header parser
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [72e7312af](https://git.fd.io/vpp/commit/?id=72e7312af) gso: add protocol header parser
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/gso](https://git.fd.io/vpp/tree/src/vnet/gso) 
 ### VPP Comms Library
@@ -1129,12 +1079,11 @@ VPP Comms Library (VCL) simplifies app interaction with session layer by exposin
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 9fb6d40eb misc: add address sanitizer heap instrumentation
-  * d747c3c36 vcl: add config option for preferred tls engine
-  * ef7cbf6ad vcl: add api to set lcl ip
-  * 57c88938f vcl: allow non-blocking connects
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [9fb6d40eb](https://git.fd.io/vpp/commit/?id=9fb6d40eb) misc: add address sanitizer heap instrumentation
+  - [d747c3c36](https://git.fd.io/vpp/commit/?id=d747c3c36) vcl: add config option for preferred tls engine
+  - [ef7cbf6ad](https://git.fd.io/vpp/commit/?id=ef7cbf6ad) vcl: add api to set lcl ip
+  - [57c88938f](https://git.fd.io/vpp/commit/?id=57c88938f) vcl: allow non-blocking connects
 
 Source Code: [https://git.fd.io/vpp/tree/src/vcl](https://git.fd.io/vpp/tree/src/vcl) 
 ### Virtio PCI Device
@@ -1150,12 +1099,11 @@ Supports: API CLI STATS MULTITHREAD
 Not yet implemented:  
 - API dump filtering by sw_if_index
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 72e7312af gso: add protocol header parser
-  * 7c6102b1a tap: multiqueue support
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [72e7312af](https://git.fd.io/vpp/commit/?id=72e7312af) gso: add protocol header parser
+  - [7c6102b1a](https://git.fd.io/vpp/commit/?id=7c6102b1a) tap: multiqueue support
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/devices/virtio](https://git.fd.io/vpp/tree/src/vnet/devices/virtio) 
 ### Virtual eXtensible LAN
@@ -1173,8 +1121,7 @@ Virtual eXtensible LAN (VXLAN) tunnels support L2 overlay networks that span L3 
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/vxlan](https://git.fd.io/vpp/tree/src/vnet/vxlan) 
 ### VxLAN-GPE
@@ -1187,8 +1134,7 @@ VxLAN-GPE tunnel handling
 
 Feature maturity level: production  
 Supports: API CLI MULTITHREAD  
-Feature commits:  
-  * 39d69112f api: multiple connections per process
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/vxlan-gpe](https://git.fd.io/vpp/tree/src/vnet/vxlan-gpe) 
 ### host-interface Device AF_PACKET
@@ -1204,10 +1150,9 @@ Supports: API CLI STATS MULTITHREAD
 Not yet implemented:  
 - API dump details beyond sw_if_index and name
 
-Feature commits:  
-  * 39d69112f api: multiple connections per process
-  * 6b0dd5502 build: add yaml file linting to make checkstyle
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+Feature commits:    - [39d69112f](https://git.fd.io/vpp/commit/?id=39d69112f) api: multiple connections per process
+  - [6b0dd5502](https://git.fd.io/vpp/commit/?id=6b0dd5502) build: add yaml file linting to make checkstyle
+  - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
 
 Source Code: [https://git.fd.io/vpp/tree/src/vnet/devices/af_packet](https://git.fd.io/vpp/tree/src/vnet/devices/af_packet) 
 ### rdma device driver
@@ -1219,12 +1164,11 @@ rdma device driver support
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * d8c1ef925 rdma: api: prepare support for direct verb
-  * 812afe712 rdma: add rdma API
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
-  * 0dcafcc50 rdma: add support for MAC changes
-  * 74eba446b rdma: add support for input feature arcs
+Feature commits:    - [d8c1ef925](https://git.fd.io/vpp/commit/?id=d8c1ef925) rdma: api: prepare support for direct verb
+  - [812afe712](https://git.fd.io/vpp/commit/?id=812afe712) rdma: add rdma API
+  - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+  - [0dcafcc50](https://git.fd.io/vpp/commit/?id=0dcafcc50) rdma: add support for MAC changes
+  - [74eba446b](https://git.fd.io/vpp/commit/?id=74eba446b) rdma: add support for input feature arcs
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/rdma](https://git.fd.io/vpp/tree/src/plugins/rdma) 
 ### vmxnet3 device driver
@@ -1236,9 +1180,8 @@ vmxnet3 device driver support
 
 Feature maturity level: production  
 Supports: API CLI STATS MULTITHREAD  
-Feature commits:  
-  * 7ca5aaac1 vlib: add flag to explicitelly mark nodes which can init per-node packet trace
-  * 2985e0af6 vmxnet3: per interface gso support
+Feature commits:    - [7ca5aaac1](https://git.fd.io/vpp/commit/?id=7ca5aaac1) vlib: add flag to explicitelly mark nodes which can init per-node packet trace
+  - [2985e0af6](https://git.fd.io/vpp/commit/?id=2985e0af6) vmxnet3: per interface gso support
 
 Source Code: [https://git.fd.io/vpp/tree/src/plugins/vmxnet3](https://git.fd.io/vpp/tree/src/plugins/vmxnet3) 
 
